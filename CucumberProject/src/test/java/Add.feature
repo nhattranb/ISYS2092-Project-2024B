@@ -6,6 +6,7 @@ Feature: add two numbers
         When I enter my first number as 5
         And I enter my second number as 3
         And I enter my choice as 1
+        When I press Enter
         Then I should see the sum of 5 and 3 is 8
 
     Scenario: wrong results?
@@ -13,4 +14,5 @@ Feature: add two numbers
         When I enter my first number as 5
         And I enter my second number as 3
         And I enter my choice as 1
+        When I press Enter
         Then I should not see the sum of 5 and 3 is 9
