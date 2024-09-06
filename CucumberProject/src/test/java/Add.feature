@@ -16,3 +16,11 @@ Feature: add two numbers
         And I enter my choice as 1
         When I press Enter
         Then I should not see the sum of 5 and 3 is 9
+
+    Scenario: invalid input
+        Given I am on the outside
+        When I enter my first number as 5
+        And I enter my second number as ailqkkajqlkal
+        And I enter my choice as 1
+        When I press Enter
+        Then I should see the error message "Invalid input, please enter a number"

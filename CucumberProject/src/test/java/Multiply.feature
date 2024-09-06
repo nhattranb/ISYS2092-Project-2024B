@@ -7,3 +7,4 @@ Feature: multiply two numbers
         And I entered the second number 6
         And I entered my choice as 3
         Then I should get the result as 30
+

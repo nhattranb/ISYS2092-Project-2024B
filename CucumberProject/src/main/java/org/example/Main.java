@@ -7,12 +7,12 @@ public class Main {
         CalculatorBasic cb = new CalculatorBasic();
         CalculatorAdvanced ca = new CalculatorAdvanced();
 
-        // data input
-        Scanner ushik = new Scanner(System.in);
+        // data input with validation for a number
+        Scanner st = new Scanner(System.in);
         System.out.println("Enter your first number:");
-        int a = ushik.nextInt();
+        int a = st.nextInt();
         System.out.println("Enter your second number:");
-        int b = ushik.nextInt();
+        int b = st.nextInt();
 
         // select operation
         System.out.println("Select from the following operation:");
@@ -28,7 +28,7 @@ public class Main {
         int choice = 0;
         while (choice < 1 || choice > 9) {
             System.out.println("Enter your choice:");
-            choice = ushik.nextInt();
+            choice = st.nextInt();
             switch (choice) {
                 case 1:
                     System.out.println("Addition: " + cb.add(a, b));
