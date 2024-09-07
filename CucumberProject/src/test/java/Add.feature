@@ -1,21 +1,18 @@
 Feature: add two numbers
   As an user, I want to add two numbers so that I can get the sum of them.
 
-    Scenario: add two numbers
+    Scenario Outline: add two numbers
         Given I am on the outside
-        When I enter my first number as 5
-        And I enter my second number as 3
+        When I enter my first number as <a>
+        And I enter my second number as <b>
         And I enter my choice as 1
         When I press Enter
-        Then I should see the sum of 5 and 3 is 8
+        Then I should see the sum of <a> and <b> is <sum>
 
-    Scenario: wrong results?
-        Given I am on the outside
-        When I enter my first number as 5
-        And I enter my second number as 3
-        And I enter my choice as 1
-        When I press Enter
-        Then I should not see the sum of 5 and 3 is 9
+        Examples:
+            | a | b | sum |
+            | 1 | 2 | 3   |
+            | 2 | 3 | 5   |
 
     Scenario: invalid input
         Given I am on the outside

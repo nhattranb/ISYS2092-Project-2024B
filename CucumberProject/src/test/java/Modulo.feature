@@ -1,11 +1,14 @@
 Feature: Modulo of two numbers
 
-  Scenario: Modulo of two numbers
-    Given I have two numbers 10 and 3
-    When I calculate the modulo of the two numbers
-    Then the result should be 1
+  Scenario Outline: Modulo of two numbers
+    Given I am on the outside
+    When I enter my first number as <a>
+    And I enter my second number as <b>
+    And I enter my choice as 5
+    When I press Enter
+    Then I should see the modulo of <a> and <b> is <mod>
 
-  Scenario: invalid input
-    Given I have two numbers 10 and 0
-    When I calculate the modulo of the two numbers
-    Then the result should be invalid input
+    Examples:
+        | a | b | mod |
+        | 5 | 2 | 1   |
+        | 6 | 3 | 0   |

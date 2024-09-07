@@ -1,15 +1,26 @@
 Feature: divide two numbers
 
-  Scenario: divide two numbers
-    Given I have entered 6 into the calculator
-    And I have entered 2 into the calculator
-    And I entered the choice as 4
+  Scenario Outline: divide two numbers
+    Given I am on the outside
+    When I enter my first number as <a>
+    And I enter my second number as <b>
+    And I enter my choice as 4
     When I press Enter
-    Then the result should be 3 on the screen
+    Then I should see the division of <a> and <b> is <div>
 
-  Scenario: divide to zero
-    Given I have entered 6 into the calculator
-    And I have entered 0 into the calculator
-    And I entered the choice as 4
+    Examples:
+        | a | b | div |
+        | 6 | 2 | 3   |
+        | 21 | 3 | 7   |
+
+  Scenario Outline: divide to zero
+    Given I am on the outside
+    When I enter my first number as <a>
+    And I enter my second number as 0
+    And I enter my choice as 1
     When I press Enter
-    Then I should see an error message on the screen
+    Then I should see an error message
+
+    Examples:
+      | a | b | div |
+      | 6 | 0 | error   |
