@@ -1,7 +1,10 @@
 package org.example;
 
+import io.cucumber.java.en.*;
+
 public class CalculatorBasic {
 
+    @When("I press Enter")
     public int add(int a, int b) {
         return a + b;
     }

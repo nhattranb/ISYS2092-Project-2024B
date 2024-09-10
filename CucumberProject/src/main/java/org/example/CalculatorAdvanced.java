@@ -1,5 +1,7 @@
 package org.example;
 
+import io.cucumber.java.en.*;
+
 public class CalculatorAdvanced {
 
     public int modulo(int a, int b) {

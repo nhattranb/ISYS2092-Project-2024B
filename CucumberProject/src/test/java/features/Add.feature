@@ -3,11 +3,11 @@ Feature: add two numbers
 
     Scenario Outline: add two numbers
         Given I am on the outside
-        When I enter my first number as <a>
-        And I enter my second number as <b>
+        When I enter my first number as {a}
+        And I enter my second number as {b}
         And I enter my choice as 1
         When I press Enter
-        Then I should see the sum of <a> and <b> is <sum>
+        Then I should see the sum of {a} and {b} is {sum}
 
         Examples:
             | a | b | sum |
