@@ -16,7 +16,7 @@ public class Main {
         int b = st.nextInt();
 
         // select operation
-        System.out.println("Select from the following operation:");
+        System.out.println("Select from the following operations:");
         System.out.println("1. Addition");
         System.out.println("2. Subtraction");
         System.out.println("3. Multiplication");
