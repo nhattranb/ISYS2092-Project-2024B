@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test the search and Add to cart function</description>
+   <name>TC_ProductSearch_AddToCart</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>89ba5bda-10d9-4577-ad07-d8c02378dacd</testCaseGuid>
+</TestCaseEntity>

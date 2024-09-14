@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_UserLogin_AccountManagement</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1c0a1ffa-6c13-4162-8bb9-475cdbd9b9aa</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_1</name>
+   <tag></tag>
+   <elementGuidId>05b38fa7-03a1-4cf2-927c-c27fd86a99de</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='QuickLinks']/a[4]/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a:nth-of-type(4) > img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#QuickLinks >> internal:role=link >> nth=3</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>b483a99b-bdcc-4a7e-a9ff-19fd462c3eb4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>../images/sm_cats.gif</value>
+      <webElementGuid>52d322be-5d91-493e-9b2f-e96bdd8620ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;QuickLinks&quot;)/a[4]/img[1]</value>
+      <webElementGuid>85c864bf-54f6-434c-86fa-b2cd5cdb614d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='QuickLinks']/a[4]/img</value>
+      <webElementGuid>8e9ead4e-d96f-4cc7-993c-2a443837fe57</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[4]/img</value>
+      <webElementGuid>d91b9126-c45c-4d09-9b07-ed929ff968dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '../images/sm_cats.gif']</value>
+      <webElementGuid>41df2f8a-0992-4a5e-985f-bb1c6b6e6657</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Sign In</name>
+   <tag></tag>
+   <elementGuidId>361d6397-be4c-4c12-9d02-3e7659fc2748</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='MenuContent']/a[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a:nth-of-type(2)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Sign In&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>c2263f62-e5c6-432e-872e-f83e4cf28b8d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/actions/Account.action;jsessionid=4819B18A236817AC79652DEDB827B016?signonForm=</value>
+      <webElementGuid>e7ae5a94-f919-47e3-b7ed-26555f2104c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sign In</value>
+      <webElementGuid>c79e9c2c-b2e9-4f38-8989-a6450798bf3c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;MenuContent&quot;)/a[2]</value>
+      <webElementGuid>0166b1d4-4546-44d7-a6f1-6dcf404901d3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='MenuContent']/a[2]</value>
+      <webElementGuid>9bae1b9a-69f6-4117-91f1-4b9c8e86132c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Sign In')]</value>
+      <webElementGuid>91edae52-cdbd-4390-9919-46b407f59705</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='?'])[1]/preceding::a[1]</value>
+      <webElementGuid>d4b2d047-ab4e-49ea-8c36-70b5f8da0ce4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Sign In']/parent::*</value>
+      <webElementGuid>94b088dc-c4a0-4fcc-b1e9-8d9b4d273ead</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/actions/Account.action;jsessionid=4819B18A236817AC79652DEDB827B016?signonForm=')]</value>
+      <webElementGuid>bfe992e7-2c22-47ef-8d9f-0e5a3bd0ce4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[2]</value>
+      <webElementGuid>9a962543-95a8-4502-b825-5f958088f953</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/actions/Account.action;jsessionid=4819B18A236817AC79652DEDB827B016?signonForm=' and (text() = 'Sign In' or . = 'Sign In')]</value>
+      <webElementGuid>1f13b1af-46a6-40e3-b5d5-716577a8ac9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/actions/Account.action;jsessionid=9605E84272E144FF38592490701471A2?signonForm=')]</value>
+      <webElementGuid>d52e8c9c-46d6-427f-b6ee-6440847dd877</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/actions/Account.action;jsessionid=9605E84272E144FF38592490701471A2?signonForm=' and (text() = 'Sign In' or . = 'Sign In')]</value>
+      <webElementGuid>b7289072-a86a-4453-b5f0-ff9421216b5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/actions/Account.action;jsessionid=1531A8382A6D6546AB7CAC555943F7C7?signonForm=')]</value>
+      <webElementGuid>99f8a7e5-d7b0-40bc-a391-179ddab77e36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/actions/Account.action;jsessionid=1531A8382A6D6546AB7CAC555943F7C7?signonForm=' and (text() = 'Sign In' or . = 'Sign In')]</value>
+      <webElementGuid>a81aec42-e6dc-4ffd-85cc-33571d99196d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/actions/Account.action;jsessionid=43F7D4B4F1783F1AE97A3C6D585C34A9?signonForm=')]</value>
+      <webElementGuid>4243816a-58b4-41c7-b70d-0075066eeccb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/actions/Account.action;jsessionid=43F7D4B4F1783F1AE97A3C6D585C34A9?signonForm=' and (text() = 'Sign In' or . = 'Sign In')]</value>
+      <webElementGuid>03a2cc4d-2a32-4e3f-9249-53024554553e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

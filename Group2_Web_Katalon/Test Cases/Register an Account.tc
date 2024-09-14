@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Register an Account</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>c32e2fe9-56df-41bf-a0bb-448e61d7f2af</testCaseGuid>
-</TestCaseEntity>
