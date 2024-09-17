@@ -1,0 +1,3 @@
+Assignment 3: JMeter, BDD, Test Management Tasks
+
+Group 2 Web Automation 5 minutes video recording link :https://rmiteduau.sharepoint.com/:v:/r/sites/Luan2/Shared%20Documents/General/Recordings/Meeting%20in%20_General_-20240917_232359-Meeting%20Recording.mp4?csf=1&web=1&e=B6rnv0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
